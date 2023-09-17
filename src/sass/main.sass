@@ -1,0 +1,129 @@
+@font-face
+  font-family: 'Get Schwifty'
+  src: url('../fonts/get_schwifty.ttf') format('truetype')
+  font-weight: normal
+  font-style: normal
+    
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+  font-family: 'Get Schwifty', sans-serif
+
+header 
+    background: url('../images/otraportada.jpg')
+    background-repeat: no-repeat
+    height: 60vh /* Aumentar la altura del encabezado */
+    background-size: cover
+    background-position: center 0px
+
+header:before 
+    content: ""
+    width: 100%
+    height: 60vh /* Aumentar la altura del pseudo-elemento */
+    position: absolute
+    top: 0
+    left: 0
+    background-image: linear-gradient(90deg, #1F2937, #111927)
+    opacity: 0.9 
+
+.container 
+    width: 90%
+    margin: auto
+    height: 100%
+    
+    
+    
+.content
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    position: relative
+
+.title
+    padding: 10px
+    color: #059e05 /* Cambiar el color del título a un rosa brillante */
+    font-family: 'Get Schwifty', sans-serif
+    font-size: 6rem /* Aumentar el tamaño de la fuente */
+
+.text
+    color: #f4f2f7 /* Cambiar el color del texto a un púrpura */
+    font-size: 18px /* Aumentar el tamaño del texto */
+    font-family: 'Comic Sans MS', cursive
+
+.enlace
+    color: #f4f2f7 /* Cambiar el color del texto a un púrpura */
+    font-size: 18px /* Aumentar el tamaño del texto */
+    font-family: 'Comic Sans MS', cursive
+    outline: none
+    color: #059e05
+    text-decoration: none
+
+
+
+.characters 
+    margin-top: 20px
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.box
+    width:60%
+    background-color: #1F2937
+    margin: 10px
+    display: flex
+    border-radius: 4px
+    box-shadow: 4px 5px #d9e5d6
+
+    img 
+        width: 50%
+    .character
+        width: 100%
+        margin: 10px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        .name
+            font-family: 'Get Schwifty', sans-serif
+            font-size: 45px /* Aumentar el tamaño del nombre */
+            color: #059e05 /* Cambiar el color del nombre al mismo rosa */
+            text-align: center
+
+        .specie
+            text-align: center
+            padding: 5px
+            background-color: #364150
+            color: white
+            border-radius: 4px
+            text-transform: uppercase
+            font-size: 19px
+            margin: 3px 0px
+            font-family: 'Comic Sans MS', cursive
+        .status
+            text-align: center
+            padding: 5px
+            background-color: #364150
+            color: white
+            border-radius: 4px
+            text-transform: uppercase
+            font-size: 19px
+            margin: 3px 0px
+            font-family: 'Comic Sans MS', cursive
+        .gender
+            text-align: center
+            padding: 5px
+            background-color: #364150
+            color: white
+            border-radius: 4px
+            text-transform: uppercase
+            font-size: 19px
+            margin: 3px 0px
+            font-family: 'Comic Sans MS', cursive
+
+
